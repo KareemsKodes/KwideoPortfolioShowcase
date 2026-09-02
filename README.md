@@ -1,32 +1,55 @@
-# Kwideo: Pro Video Editor
+# Kwideo — Pro Video Editor
 
-Closed-source portfolio media for Kwideo, presented as a GitHub repository of
-approved product captures. This repository contains no Kwideo application
-source code and no runnable portfolio implementation.
+**Bring your footage. Kwideo brings the editing tools.**
 
-## What is included
+Kwideo is a feature-focused video editor for creators who want serious editing capability without needing a bundled stock library, template marketplace, or content pack to justify the app.
 
-- `media/brand/` - approved Kwideo logo artwork and app icon
-- `media/ipad/` - real iPad product screenshots and preview footage
-- `media/macos/` - real Mac product screenshots, preview footage, and the
-  Three.js overlay capture
-- `COPYRIGHT.md` - proprietary-use notice
+This repository is the public product showcase for Kwideo. It contains real captures from the iPad and macOS versions of the app so you can see the editor, workflows, and output before deciding whether it fits your work.
 
-Open the image files directly in GitHub to review individual workflows. Open or
-download the MP4 files to review the product demonstrations. The media shows
-real Kwideo captures, including timeline editing, color, effects, audio,
-transitions, delivery, recovery, and Three.js overlays.
+## What Kwideo shows here
+
+The showcase includes real product captures covering:
+
+- Timeline editing and project assembly
+- Color controls and image adjustments
+- Effects and compositing workflows
+- Audio editing and mix controls
+- Transitions and motion work
+- Delivery and export workflows
+- Project recovery behavior
+- Three.js overlay workflows on macOS
+
+No mock UI is presented as product functionality. The screenshots and preview footage in this repository are captures of Kwideo itself.
+
+## See the editor
+
+### iPad
+
+Browse `media/ipad/` for real iPad screenshots and preview footage showing Kwideo in use.
+
+### macOS
+
+Browse `media/macos/` for Mac screenshots, preview footage, and the Three.js overlay capture.
+
+### Brand
+
+Browse `media/brand/` for approved Kwideo logo artwork and the app icon.
+
+## Why this repository exists
+
+Kwideo is commercial, closed-source software. The application source remains private, but that should not require prospective users, reviewers, or collaborators to evaluate the product from marketing copy alone.
+
+This repository provides inspectable product evidence: real interface captures, real workflows, and real demonstrations while keeping the proprietary application code private.
+
+## Product information
+
+- **Documentation:** https://privacy.elkwai.com/kwideo-docs.html
+- **Support:** https://privacy.elkwai.com/kwideo-support.html
+- **Privacy:** https://privacy.elkwai.com/kwideo-privacy.html
+- **Terms:** https://privacy.elkwai.com/kwideo-terms.html
 
 ## Source boundary
 
-The Kwideo application repository remains private. This public portfolio
-contains media only: no HTML, CSS, JavaScript, Swift, Objective-C, Xcode
-projects, build artifacts, signing material, credentials, internal QA reports,
-or private project files.
+This repository intentionally contains **showcase media only**. It does not contain Kwideo application source code, Xcode projects, build artifacts, signing material, credentials, internal QA material, or private project files.
 
-## Product links
-
-- Documentation: https://privacy.elkwai.com/kwideo-docs.html
-- Support: https://privacy.elkwai.com/kwideo-support.html
-- Privacy: https://privacy.elkwai.com/kwideo-privacy.html
-- Terms: https://privacy.elkwai.com/kwideo-terms.html
+See `COPYRIGHT.md` for the proprietary-use notice.
