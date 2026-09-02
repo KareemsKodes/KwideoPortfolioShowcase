@@ -2,44 +2,62 @@
 
 **Bring your footage. Kwideo brings the editing tools.**
 
-Kwideo is a feature-focused video editor for creators who want serious editing capability without needing a bundled stock library, template marketplace, or content pack to justify the app.
+Kwideo is a feature-focused video editor for creators who already have footage and want serious editing capability without needing a bundled stock library, template marketplace, or content pack to justify the app.
 
-This repository is the public product showcase for Kwideo. It contains real captures from the iPad and macOS versions of the app so you can see the editor, workflows, and output before deciding whether it fits your work.
+This repository is the public-facing product showcase for Kwideo. It contains real captures from the iPad and macOS versions so prospective users, reviewers, and collaborators can inspect the editor and its workflows before deciding whether it fits their work.
 
-## What Kwideo shows here
+![Kwideo on iPad](media/ipad/editor-overview.jpg)
 
-The showcase includes real product captures covering:
+## Built around editing, not bundled content
+
+Kwideo's value is in the editor itself. The showcase covers real product workflows including:
 
 - Timeline editing and project assembly
-- Color controls and image adjustments
-- Effects and compositing workflows
-- Audio editing and mix controls
+- Color grading and image adjustments
+- Effects and compositing
+- Audio tools and mix controls
 - Transitions and motion work
-- Delivery and export workflows
-- Project recovery behavior
+- Asset browsing
+- Delivery and export
+- Project snapshots and recovery workflows
 - Three.js overlay workflows on macOS
 
-No mock UI is presented as product functionality. The screenshots and preview footage in this repository are captures of Kwideo itself.
+No mock UI is presented as product functionality. The screenshots and preview footage here are captures of Kwideo itself.
 
-## See the editor
+## Watch the product
 
-### iPad
+- **iPad preview:** [Open the iPad product preview](media/ipad/kwideo-ipad-preview.mp4)
+- **macOS preview:** [Open the macOS product preview](media/macos/kwideo-macos-preview.mp4)
 
-Browse `media/ipad/` for real iPad screenshots and preview footage showing Kwideo in use.
+## iPad
 
-### macOS
+| Editor | Color | Effects |
+| --- | --- | --- |
+| ![Editor overview](media/ipad/editor-overview.jpg) | ![Color grading](media/ipad/color-grading.jpg) | ![Effects stack](media/ipad/effects-stack.jpg) |
 
-Browse `media/macos/` for Mac screenshots, preview footage, and the Three.js overlay capture.
+| Audio | Transitions | Export |
+| --- | --- | --- |
+| ![Audio tools](media/ipad/audio-tools.jpg) | ![Transitions](media/ipad/transitions.jpg) | ![Export flow](media/ipad/export-flow.jpg) |
 
-### Brand
+## macOS
 
-Browse `media/brand/` for approved Kwideo logo artwork and the app icon.
+![Kwideo on macOS](media/macos/editor-overview.jpg)
+
+| Asset browser | Snapshots / recovery | Three.js overlay |
+| --- | --- | --- |
+| ![Asset browser](media/macos/asset-browser.jpg) | ![Snapshot browser](media/macos/snapshot-browser.jpg) | ![Three.js overlay](media/macos/threejs-overlay.jpg) |
+
+The macOS showcase also includes the soundtrack generator and export workflow captures in `media/macos/`.
+
+## For reviewers and evaluators
+
+If you are evaluating Kwideo, start with the two preview videos above, then inspect the iPad and macOS captures for the workflows most relevant to you. A compact reviewer-oriented index is available in [`REVIEWER_GUIDE.md`](REVIEWER_GUIDE.md).
 
 ## Why this repository exists
 
-Kwideo is commercial, closed-source software. The application source remains private, but that should not require prospective users, reviewers, or collaborators to evaluate the product from marketing copy alone.
+Kwideo is commercial, closed-source software. The application source remains private, but prospective users should not have to evaluate it from marketing claims alone.
 
-This repository provides inspectable product evidence: real interface captures, real workflows, and real demonstrations while keeping the proprietary application code private.
+This repository provides inspectable product evidence—real interface captures, real workflows, and real demonstrations—while keeping the proprietary application code private.
 
 ## Product information
 
